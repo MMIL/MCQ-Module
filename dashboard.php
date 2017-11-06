@@ -7,52 +7,11 @@ if(isset($_SESSION['myusername']))
     include 'head.php';
 
 ?>
-
+<div id="timer">
+  <h3>Time: 07:20:03</h3>
+</div>
 <div class="container-fluid">
   <div class="row">
-
-     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-        <div class="panel">
-          <div class="panel panel-body">
-
-             <h3>Question 1</h3>
-             <hr>
-             <p>In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation. Replacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC Latin text by Cicero, with words altered, added, and removed to make it nonsensical, improper Latin.A variation of the ordinary lorem ipsum text has been used in typesetting since the 1960s or earlier, when it was popularized by advertisements for Letraset transfer sheets. It was introduced to the Information Age in the mid-1980s by Aldus Corporation, which employed it in graphics and word-processing templates for its desktop publishing program PageMaker.
-             </p><br>
-             <ul id="listOptions">
-               <li id="option">
-                 <input type="radio" id="f-option" name="selector">
-                 <label for="f-option">A</label>
-    
-                 <div class="check"></div>
-               </li>
-  
-               <li id="option">
-                 <input type="radio" id="s-option" name="selector">
-                 <label for="s-option">B</label>
-    
-                 <div class="check"><div class="inside"></div></div>
-               </li>
-  
-               <li id="option">
-                <input type="radio" id="t-option" name="selector">
-                <label for="t-option">C</label>
-    
-                <div class="check"><div class="inside"></div></div>
-               </li>
-         
-               <li id="option">
-                 <input type="radio" id="u-option" name="selector">
-                 <label for="u-option">D</label>
-    
-                 <div class="check"><div class="inside"></div></div>
-               </li>
-            </ul>
-
-            <a href="#" class="next">Next<i style="margin-left: 5px;" class="glyphicon glyphicon-chevron-right"></i></a>
-          </div>
-        </div>
-     </div>
      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
         <div class="panel">
           <div class="panel panel-body" id="border">
@@ -167,8 +126,61 @@ if(isset($_SESSION['myusername']))
           </div>
         </div>
      </div>
+     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+        <div class="panel">
+          <div class="panel panel-body">
+
+             <h3>Question 1</h3>
+             <hr>
+             <p>In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation. Replacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC Latin text by Cicero, with words altered, added, and removed to make it nonsensical, improper Latin.A variation of the ordinary lorem ipsum text has been used in typesetting since the 1960s or earlier, when it was popularized by advertisements for Letraset transfer sheets. It was introduced to the Information Age in the mid-1980s by Aldus Corporation, which employed it in graphics and word-processing templates for its desktop publishing program PageMaker.
+             </p><br>
+             <ul id="listOptions">
+               <li id="option">
+                 <input type="radio" id="f-option" name="selector">
+                 <label for="f-option">A</label>
+    
+                 <div class="check"></div>
+               </li>
+  
+               <li id="option">
+                 <input type="radio" id="s-option" name="selector">
+                 <label for="s-option">B</label>
+    
+                 <div class="check"><div class="inside"></div></div>
+               </li>
+  
+               <li id="option">
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">C</label>
+    
+                <div class="check"><div class="inside"></div></div>
+               </li>
+         
+               <li id="option">
+                 <input type="radio" id="u-option" name="selector">
+                 <label for="u-option">D</label>
+    
+                 <div class="check"><div class="inside"></div></div>
+               </li>
+            </ul>
+
+            <a href="#" class="next">Next<i style="margin-left: 5px;" class="glyphicon glyphicon-chevron-right"></i></a>
+          </div>
+        </div>
+     </div>
   </div>
 </div>
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                   <h4 id="copy">&copy; copyright@2017 </h4>
+                </div>
+            </div>
+            
+        </div>
+        <a href="index.html" title="to the top"><i class="glyphicon glyphicon-chevron-up"></i></a>
+</section>
 </body>
 </html>
 

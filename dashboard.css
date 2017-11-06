@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .row{
-   margin-top: 12rem;
+   margin-top: 16rem;
 }
 #border {
     border: 3px solid grey;
@@ -220,10 +220,57 @@ input[type=radio]:checked ~ .check::before{
 input[type=radio]:checked ~ label{
   color: grey;
 }
-
-
-
+section#contact{
+    background-color: rgba(0,0,0,0.9);
+    padding-bottom: 0rem;
+    height: 20rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 13rem;
+}
+.glyphicon-chevron-up{
+    float: right;
+    padding-right: 2rem;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+.glyphicon-chevron-up:hover{
+    color: #D50000;
+}
+h4#copy{
+  margin-top: -4rem;
+  color: white;
+}
+div#timer {
+    margin-top: 10rem;
+    float: right;
+    margin-right: 3rem;
+}
 @media (max-width: 320px){
-
+  .navbar-brand>img{
+    width: 12rem;
+    margin-left: -4rem;
+  }
  
+}
+@media (max-width: 375px) and (min-width: 350px){
+  .navbar-brand>img{
+    width: 13rem;
+  }
+ 
+}
+@media (max-width: 425px) and (min-width: 400px){
+  .navbar-brand>img{
+    width: 13rem;
+  }
+ 
+}
+@media (max-width: 1440px) and (min-width: 1400px){
+  section#contact{
+    height: 25rem;
+    margin-top: 21rem;
+  }
 }
