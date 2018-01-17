@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(isset($_SESSION['myusername']))
+if(isset($_SESSION['email']))
 {
     include 'config.php';
     include 'head.php';
@@ -170,22 +170,12 @@ if(isset($_SESSION['myusername']))
      </div>
   </div>
 </div>
-<section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                   <h4 id="copy">&copy; copyright@2017 </h4>
-                </div>
-            </div>
-            
-        </div>
-        <a href="index.html" title="to the top"><i class="glyphicon glyphicon-chevron-up"></i></a>
-</section>
+<?php include 'foot.php'; ?>
 </body>
 </html>
 
 <?php
-	mysql_close($connection);
+	mysqli_close($connection);
 }
 else
 {
