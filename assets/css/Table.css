@@ -1,0 +1,64 @@
+@import url("style.css");
+.jumbotron{
+	margin-top: 8rem;
+	background-color: rgba(255,255,255,0.8);
+}
+th,tr,td{
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.card{
+	width: 40%;
+	margin-top: -4rem;
+	margin-bottom: 5rem;
+	margin-left: 19rem;
+	font-size: 20px;
+	background-color: #b71c1c;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+@media (max-width: 320px){
+	.card{
+		margin-left: 0rem;
+		width: 100%;
+	}
+	table{
+		margin-left: -1.5rem;
+	}
+}
+@media(max-width: 700px) and (min-width: 360px){
+	.card{
+		margin-left: 0rem;
+		width: 100%;
+	}
+	table{
+		margin-left: 0rem;
+	}
+}
+@media(max-width: 768px) and (min-width: 710px){
+	.card{
+		margin-left: 10rem;
+		width: 50%;
+	}
+}
+@media(max-width: 1024px) and (min-width: 999px){
+	.card{
+		margin-left: 14rem;
+		width: 50%;
+	}
+}
+@media(max-width: 1440px) and (min-width: 1400px){
+	.card{
+		margin-left: 20rem;
+	}
+}
+@media(max-width: 1680px) and (min-width: 1550px){
+	.jumbotron{
+		margin-top: 12rem;
+		width: 100%;
+	}
+	footer.page-footer{
+		margin-top: 10rem;
+	}
+}

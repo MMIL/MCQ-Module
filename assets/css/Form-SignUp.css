@@ -1,0 +1,14 @@
+@import url("Form-LogIn.css");
+
+.jumbotron{
+	height: 60rem;
+}
+.btn.logIn{
+	margin-top: 2rem;
+}
+.md-form input[type=text],.md-form input[type=password]{
+	margin-bottom: 3rem;
+}
+.md-form input[type=text]:focus:not([readonly]) + label,.md-form input[type=password]:focus:not([readonly]) + label{
+	font-weight: bold;
+}  

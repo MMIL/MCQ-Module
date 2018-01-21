@@ -1,0 +1,81 @@
+@import url("style.css");
+.jumbotron{
+	width: 70%;
+	margin-top: 8rem;
+	height: 30rem;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+}
+.card{
+	margin-top: -4rem;
+	margin-bottom: 5rem;
+	font-size: 20px;
+	background-color: #b71c1c;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.fa-lock:before {
+    content: "\f023";
+    margin-left: 0.3rem;
+}
+.btn.logIn{
+	width: 50%;
+	background-color: #b71c1c; 
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.md-form input[type=text]{
+	margin-bottom: 3rem;
+}
+.md-form input[type=password]{
+	margin-bottom: 5rem;
+}
+.md-form input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #c62828 ;
+  -webkit-box-shadow: 0 1px 0 0 #c62828 ;
+  box-shadow: 0 1px 0 0 #c62828 ; 
+  color: grey;
+}
+
+.md-form input[type=text]:focus:not([readonly]) + label {
+  color: #c62828; 
+  font-weight: bold;
+}
+
+.md-form input[type=password]:focus:not([readonly]) {
+  border-bottom: 1px solid #c62828 ;
+  -webkit-box-shadow: 0 1px 0 0 #c62828 ;
+  box-shadow: 0 1px 0 0 #c62828 ; 
+  color: grey;
+}
+
+.md-form input[type=password]:focus:not([readonly]) + label {
+  color: #c62828;
+  font-weight: bold;
+}
+@media(max-width: 700px){
+	.jumbotron{
+		width: 100%;
+	}
+	.btn.logIn{
+		width: 80%;
+	}
+}
+@media(max-width: 1440px) and (min-width: 1400px){
+	.jumbotron{
+		margin-top: 10rem;
+	}
+	footer.page-footer{
+		margin-top: 5rem;
+	}
+}
+
+@media(max-width: 1680px) and (min-width: 1550px){
+	.jumbotron{
+		margin-top: 15rem;
+	}
+	footer.page-footer{
+		margin-top: 9rem;
+	}
+}
